@@ -6,6 +6,13 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
+import { Urbanist } from 'next/font/google'
+
+const urbanist = Urbanist({
+  subsets: ['latin'],
+  variable: '--font-urbanist',
+  display: 'swap',
+})
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -23,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={urbanist.variable}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

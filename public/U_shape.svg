@@ -1,0 +1,13 @@
+<!-- Save as /public/u-shape.svg -->
+<svg width="166.7" height="230.06" viewBox="0 0 166.7 230.06" xmlns="http://www.w3.org/2000/svg">
+  <path
+    d="M30,0
+       A53,100 0 0 0 30,230
+       M136.7,0
+       A53,100 0 0 1 136.7,230"
+    fill="none"
+    stroke="#cbd5e1"
+    stroke-width="30"
+    stroke-linecap="round"
+  />
+</svg>
