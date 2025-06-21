@@ -4,7 +4,7 @@ import React from 'react'
 function MultipleCards() {
   return (
     <div className='w-full px-8'>
-      <div className='w-full lg:h-[450px] lg:flex lg:flex-row flex-col h-auto lg:gap-2'>
+      <div className='w-full lg:h-[450px] lg:flex lg:flex-row flex-col h-auto lg:gap-2 '>
         <div className='w-1/4 h-full flex flex-col gap-3'>
           <div className='relative w-full h-[55%] transform transition duration-300 ease-in-out hover:scale-[1.03]'>
             <Image src='/99ab7e6bf795dd49a1f6d83036228d0323447b02.png' alt='happy old man' height={450} width={450} className='w-full h-full rounded-3xl object-cover' objectFit='center'></Image>

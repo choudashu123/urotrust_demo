@@ -37,9 +37,9 @@ function SymptomsHome() {
                     <Image
                         src="/dbb97673c62d245119735e02cfaac3d4f9928900.jpg"
                         alt="Clinic waiting room"
-                        height={40}
-                        width={40}
-                        className="w-full h-auto rounded-3xl"
+                        height={700}
+                        width={700}
+                        className="rounded-3xl"
                     />
 
                     {/* Overlay Box */}
