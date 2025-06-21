@@ -6,8 +6,8 @@ function DoctorIntroHome() {
     <div className='w-full flex flex-col md:flex-row px-[10%] py-[5%]'>
       <div className='w-full md:w-2/5 flex flex-col justify-center'>
         <div className='relative rounded-4xl overflow-hidden pb-[120%]' >
-          <img src='/c2bbbd14aa551541484f8f74298dee147bcd86ed.png'
-            alt='doctor_image' className='z-10 bottom-0 absolute object-center w-full h-full'></img>
+          <Image src='/c2bbbd14aa551541484f8f74298dee147bcd86ed.png'
+            alt='doctor_image' fill className='z-10 bottom-0 absolute object-center w-full h-full'></Image>
           <div className='absolute top-[15%] rounded-4xl w-full h-full bg-[#DBE4F5]'></div>
         </div>
       </div>
@@ -47,8 +47,8 @@ function DoctorIntroHome() {
             <a href="#"
               className="inline-flex items-center px-6 py-3 bg-[#E6F2D5] text-green-800 font-medium rounded-full hover:bg-green-200 transition">
               Learn more about Dr Erol Ucaner
-              <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+              <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
               </svg>
             </a>
           </div>

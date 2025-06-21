@@ -7,19 +7,19 @@ function PatientStoriesHome() {
   {
     name: 'Sarah M.',
     role: 'HoLEP Patient',
-    text: `From the first consultation to the final follow-up, Dr. Erol’s care was outstanding. I felt informed, respected, and completely supported through every decision.`,
+    text: `From the first consultation to the final follow-up, Dr. Erol&rsquo;s care was outstanding. I felt informed, respected, and completely supported through every decision.`,
     avatar: '/ec901f1c0d6bdc3abb3b7f2578c96a444ee001e2.jpg',
   },
   {
     name: 'Michael T.',
     role: 'Verified Patient',
-    text: `Efficient, compassionate, and incredibly knowledgeable. I can’t recommend Dr. Erol highly enough — he made a stressful diagnosis manageable and gave me back my peace of mind.`,
+    text: `Efficient, compassionate, and incredibly knowledgeable. I can&rsquo;t recommend Dr. Erol highly enough — he made a stressful diagnosis manageable and gave me back my peace of mind.`,
     avatar: '/410c340aa057242400c608368f918307cdd72438.jpg',
   },
   {
     name: 'Emily R.',
     role: 'Verified Patient',
-    text: `Booking was easy, the consultation was clear, and the aftercare plan was excellent. It's rare to feel this looked after — thank you.`,
+    text: `Booking was easy, the consultation was clear, and the aftercare plan was excellent. It&rsquo;s rare to feel this looked after — thank you.`,
     avatar: '/6528ea7852c4088f59481c9e231938f441876daf.jpg',
   },
 ]

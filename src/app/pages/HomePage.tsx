@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Image from 'next/image'
-import { Download, Sparkles, MoveRight, CalendarClock } from 'lucide-react'
+import { Download, MoveRight, CalendarClock } from 'lucide-react'
 import SymptomsHome from '../components/SymptomsHome';
 import Conditions_Home from '../components/condition_home/Conditions_Home';
 import PrivateConsult from '../components/private_consult/PrivateConsult';
@@ -70,7 +70,7 @@ function HomePage() {
                         {/* Icon Group */}
                         <div className='flex flex-col items-center'>
                             <div className="flex gap-1">
-                                <img src='/2c65e6d8a22435d1bc0cae21c211412a4fa7b4a0.png' className='h-10 w-10 bg-[#DBE4F5] rounded-full'></img>
+                                <Image src='/2c65e6d8a22435d1bc0cae21c211412a4fa7b4a0.png' alt='dedicated doctor' height={40} width={40} className='h-10 w-10 bg-[#DBE4F5] rounded-full'></Image>
                             </div>
                             <div className="text-sm text-gray-500 font-bold">Dedicated 24/7<br />Patient Concierge</div>
                         </div>
@@ -79,7 +79,7 @@ function HomePage() {
                         {/* Icon Group */}
                         <div className='flex flex-col items-center'>
                             <div className="flex gap-1">
-                                <img src='/5fca937cc618163c71814d4739c7f3f63c4e9cf6.png' className='h-10 w-10 bg-[#E6F1D4] rounded-full'></img>
+                                <Image src='/5fca937cc618163c71814d4739c7f3f63c4e9cf6.png' alt='Faster checkup without delays' height={40} width={40} className='h-10 w-10 bg-[#E6F1D4] rounded-full'></Image>
                                 <CalendarClock className='bg-yellow-100 h-10 w-10 p-2 rounded-full'></CalendarClock>
                             </div>
                             <div className="text-sm text-gray-500 font-bold">HoLep Surgery <br />Without Delays</div>

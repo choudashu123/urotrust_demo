@@ -26,7 +26,7 @@ const faqs = [
   {
     question: 'What happens after my consultation?',
     answer:
-      'You will receive a clear plan and recommendations. If surgery or further treatment is needed, we’ll assist with the next steps.',
+      `You will receive a clear plan and recommendations. If surgery or further treatment is needed, we&rsquo;ll assist with the next steps.`,
   },
   {
     question: 'Can I still be seen if I am located outside the UK?',
@@ -46,7 +46,7 @@ const faqs = [
   {
     question: 'Do you offer second opinions?',
     answer:
-      'Absolutely. We’re happy to provide a second opinion based on your current diagnosis or concerns.',
+      `Absolutely. We&rsquo;re happy to provide a second opinion based on your current diagnosis or concerns.`,
   },
   {
     question: 'Can I get prescriptions or referrals if needed?',

@@ -1,18 +1,20 @@
 'use client';
 
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper as SwiperClass } from 'swiper/types'
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { useRef } from 'react';
+import Image from 'next/image';
 
 export default function TestimonialSlider() {
-  const swiperRef = useRef<any>(null);
+  const swiperRef = useRef<SwiperClass | null>(null);
   const testimonials = [
     {
       name: 'John M',
       country: 'United Kingdom',
-      image: 'https://randomuser.me/api/portraits/men/75.jpg',
+      image: '/df05f9327f8ab8f6bfb2709edbbad9a7e2393f4c.jpg',
       heading: 'What our patients say about us',
       feedback: [
         '“My prostate problem was ruining my life, as a Doctor, a husband and an older athlete. Now I feel fantastic and 30 years younger.”',
@@ -22,7 +24,7 @@ export default function TestimonialSlider() {
     {
       name: 'Anna T',
       country: 'Germany',
-      image: 'https://randomuser.me/api/portraits/women/68.jpg',
+      image: '/410c340aa057242400c608368f918307cdd72438.jpg',
       heading: 'Our patients trust us',
       feedback: [
         '“I was hesitant to get treatment abroad, but Dr Erol made me feel at home. Professional, kind, and effective.”',
@@ -32,7 +34,7 @@ export default function TestimonialSlider() {
     {
       name: 'Carlos D',
       country: 'Spain',
-      image: 'https://randomuser.me/api/portraits/men/32.jpg',
+      image: '/4b71756b2dfdef5d27bf29ac91dee569bdec2870.jpg',
       heading: 'Trusted and Caring',
       feedback: [
         '“From the first consultation to post-surgery follow-up, Dr Erol and his team were amazing.”',
@@ -70,10 +72,12 @@ export default function TestimonialSlider() {
               </p>
             ))}
             <div className="flex justify-center items-center mt-6 gap-4">
-              <img
+              <Image
                 src={item.image}
                 className="w-10 h-10 rounded-full"
                 alt={item.name}
+                height={40}
+                width={40}
               />
               <div className="text-left">
                 <div className="font-semibold text-black">{item.name}</div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { CheckCircle2 } from 'lucide-react';
+import Image from 'next/image';
 
 function YourTerms() {
   const items = [
@@ -11,7 +12,7 @@ function YourTerms() {
   return (
     <div className='w-full py-[5%]'>
       <div className='relative w-full md:pb-[40%] pb-[60%] bg-red-700'>
-        <img src='/a76af26cbed28fcd6b3428e14b86755c3d66d8be_result.png' className='absolute top-0 left-0 object-cover w-full h-full'></img>
+        <Image src='/a76af26cbed28fcd6b3428e14b86755c3d66d8be_result.png' alt="Urology" fill className='absolute top-0 left-0 object-cover w-full h-full'/>
         <div className="absolute left-[10%] top-[10%] bg-white p-6 md:p-8 rounded-3xl w-2/5 md:w-auto shadow-lg mx-auto space-y-6">
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
             Your Urology Care. On Your Terms

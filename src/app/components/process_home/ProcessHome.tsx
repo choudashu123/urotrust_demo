@@ -1,5 +1,4 @@
 import React from 'react'
-import ProcessCard from './ProcessCard'
 import ProcessCardInfo from './ProcessCardInfo'
 import Image from 'next/image'
 import { FaQuoteLeft, FaStar } from 'react-icons/fa';
