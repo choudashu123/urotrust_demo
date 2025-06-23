@@ -30,7 +30,7 @@ function EnlargedProstateHome() {
           </p>
 
           {/* CTA Button */}
-          <button className="bg-[#e7ecff] text-blue-900 font-medium px-6 py-3 rounded-full shadow hover:bg-blue-100 transition">
+          <button className="bg-[#e7ecff] text-black font-medium px-6 py-3 rounded-full shadow hover:bg-blue-100 transition">
             Book Your Fast-Track HoLEP Surgery Now
           </button>
         </div>

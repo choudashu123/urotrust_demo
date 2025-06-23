@@ -45,7 +45,7 @@ function DoctorIntroHome() {
 
           <div className="mt-6">
             <a href="#"
-              className="inline-flex items-center px-6 py-3 bg-[#E6F2D5] text-green-800 font-medium rounded-full hover:bg-green-200 transition">
+              className="inline-flex items-center px-6 py-3 bg-[#E6F2D5] text-black font-medium rounded-full hover:bg-green-200 transition">
               Learn more about Dr Erol Ucaner
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />

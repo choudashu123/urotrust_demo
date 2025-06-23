@@ -1,5 +1,5 @@
 import React from 'react'
-import { CheckCircle2 } from 'lucide-react';
+import { Check } from 'lucide-react';
 import Image from 'next/image';
 
 function YourTerms() {
@@ -21,8 +21,8 @@ function YourTerms() {
           <ul className="space-y-2 md:space-y-4">
             {items.map((item, index) => (
               <li key={index} className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mt-1">
-                  <CheckCircle2 className="w-4 h-4" />
+                <div className="w-6 h-6 bg-[#DBE4F5] text-gray-800 rounded-full flex items-center justify-center mt-1">
+                  <Check className="w-5 h-5" />
                 </div>
                 <span className="text-gray-800 truncate">{item}</span>
               </li>

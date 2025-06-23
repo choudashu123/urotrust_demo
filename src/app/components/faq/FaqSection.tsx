@@ -1,4 +1,5 @@
 'use client'
+import { ArrowDown, ArrowUp } from 'lucide-react';
 import React, { useState } from 'react';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
@@ -79,7 +80,7 @@ const FaqSection = () => {
               >
                 <span>{faq.question}</span>
                 <span className="ml-4 text-sm">
-                  {isActive ? <FaChevronUp /> : <FaChevronDown />}
+                  {isActive ? <ArrowUp className='border-1 rounded-full border-black' /> : <ArrowDown className='border rounded-full border-base' />}
                 </span>
               </div>
               {isActive && (

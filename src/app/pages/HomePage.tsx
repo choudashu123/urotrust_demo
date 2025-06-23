@@ -16,6 +16,7 @@ import PatientStoriesHome from '../components/patient_stories/PatientStoriesHome
 import WhyChooseUs from '../components/choose_us/WhyChooseUs';
 import FaqSection from '../components/faq/FaqSection';
 import HeroWithFooter from '../components/hero_footer/HeroWithFooter';
+import MultipleCardsContainer from '../components/multiple_cards/MultipleCardsContainer';
 
 
 function HomePage() {
@@ -88,21 +89,21 @@ function HomePage() {
                     <div className='z-10 text-sm font-semibold rounded-2xl bg-[#E6F1D4] absolute top-[1%] right-2 px-4 py-1 '>Explore fast tracked surgery</div>
                     <div className="absolute z-10 bottom-[2%] right-2 inline-flex items-center bg-white rounded-4xl shadow px-4 py-2">
                         {/* Google Logo */}
-                        <Image src="/google.png" alt="Google" width={24} height={24} />
+                        <Image src="/google.png" alt="Google" width={18} height={18} />
 
                         {/* Rating Info */}
                         <div className="flex flex-col">
-                                <p className="text-md font-semibold text-gray-800">Google Rating</p>
-                                <div className='flex justify-center items-center'>
-                                    <p className="text-sm text-yellow-500 font-bold">5.0</p>
-                                <div className=" text-sm flex text-yellow-500">
+                            <p className="text-xs font-semibold text-gray-800">Google Rating</p>
+                            <div className='flex justify-center items-center'>
+                                <p className="text-xs text-yellow-500 font-bold ml-1">5.0</p>
+                                <div className=" text-xs flex text-yellow-500">
                                     {Array(5).fill(0).map((_, i) => (
                                         <FaStar key={i} size={14} />
                                     ))}
-                            </div>
                                 </div>
-                                
-                            <p className="text-sm text-gray-500">253 Reviews</p>
+                            </div>
+
+                            <p className="text-xs text-gray-500">253 Reviews</p>
                         </div>
                     </div>
 
