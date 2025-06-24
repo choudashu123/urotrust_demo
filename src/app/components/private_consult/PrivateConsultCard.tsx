@@ -2,7 +2,7 @@ import React from 'react'
 
 function PrivateConsultCard() {
   return (
-    <div className='overflow-y-auto h-2/3 w-2/3 lg:h-auto lg:w-1/2 absolute right-6 bottom-6 lg:right-12 lg:bottom-12 rounded-3xl bg-white'>
+    <div className='overflow-y-auto h-2/3 w-2/3 lg:h-auto lg:w-1/2 absolute right-6 bottom-6 lg:right-12 lg:bottom-12 p-[2%] rounded-3xl bg-white'>
       <div className='break-words max-w-full flex flex-col lg:justify-center md:gap-4 justify-between px-3 py-[3%]'>
         <p className='text-xl md:text-2xl lg:text-3xl font-bold'>Just One Private Consult Today</p>
         <p className='text-md font-semibold md:text-xl'>Could Save Your 6+ Months of Delay</p>

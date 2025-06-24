@@ -6,9 +6,9 @@ import { FaQuoteLeft, FaStar } from 'react-icons/fa';
 
 function ProcessHome() {
   return (
-    <div className='grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-2 h-full w-full py-[5%] lg:px-24 bg-[#FBFAF9]'>
-      <div className='col-span-1 row-span-1 md:row-span-2 p-3'>
-        <div className='relative w-full min-h-[400px] md:h-[500px] lg:h-[500px]'>
+    <div className='grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-2 h-full w-full py-[5%] lg:px-18 bg-[#FBFAF9]'>
+      <div className='col-span-1 row-span-1 md:row-span-2 px-12 md:pr-12 '>
+        <div className='relative w-full min-h-[400px] md:h-[500px]'>
 
           <div className="absolute z-10 bottom-[15%] left-[2%] bg-white p-6 rounded-2xl shadow max-w-sm">
             {/* Quote icon */}
@@ -39,10 +39,10 @@ function ProcessHome() {
             </div>
           </div>
 
-          <Image src='/21ee6f51f421625fb858da73523ad5b217e239ef_result.jpg' className='rounded-3xl' alt='yoga_girl' fill></Image>
+          <Image src='/21ee6f51f421625fb858da73523ad5b217e239ef_result.jpg' height={1000} width={1000} className='h-140 w-140 rounded-3xl object-cover' alt='yoga_girl' ></Image>
         </div>
       </div>
-      <div className='w-full h-full col-span-1 row-span-2 p-3'>
+      <div className='w-full h-full col-span-1 row-span-2 p-6'>
         <ProcessCardInfo />
 
       </div>

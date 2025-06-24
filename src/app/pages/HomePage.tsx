@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Image from 'next/image'
-import { Download, MoveRight, CalendarClock } from 'lucide-react'
+import { CircleArrowDown, MoveRight, CalendarClock } from 'lucide-react'
 import SymptomsHome from '../components/SymptomsHome';
 import Conditions_Home from '../components/condition_home/Conditions_Home';
 import PrivateConsult from '../components/private_consult/PrivateConsult';
@@ -58,8 +58,8 @@ function HomePage() {
                                 </div>
                             </div>
                             <div className='flex mt-3'>
-                                <p className='bg-[#DBE4F5] text-black px-3 py-2 rounded-2xl font-semi-bold'>Explore Fast-Tracked Surgery in Cyprus</p>
-                                <button><Download className='text-black bg-[#DBE4F5] rounded-full h-8 w-8 p-1 ml-2'></Download></button>
+                                <p className='bg-[#DBE4F5] text-black px-3 py-2 rounded-2xl'>Explore Fast-Tracked Surgery in Cyprus</p>
+                                <button><CircleArrowDown className='text-black font-medium bg-[#DBE4F5] rounded-full h-8 w-8 p-1 ml-2'></CircleArrowDown ></button>
                             </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@ function HomePage() {
                     </span>
                 </p>
             </div>
-            <MultipleCards />
+            <MultipleCardsContainer />
             <SymptomsHome />
             <Conditions_Home />
             <PrivateConsult />

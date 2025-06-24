@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { Check} from 'lucide-react'
 
 function SymptomsHome() {
     return (
@@ -14,16 +15,16 @@ function SymptomsHome() {
 
                     <ul className="space-y-3 text-lg text-gray-700 ml-10 md:ml-16">
                         <li className="flex items-center gap-2">
-                            ✅ <span>Understand Your Symptoms Better</span>
+                            <Check className='bg-[#DBE4F5] rounded-full p-1'></Check> <span>Understand Your Symptoms Better</span>
                         </li>
                         <li className="flex items-center gap-2">
-                            ✅ <span>Explore Comprehensive Urology Conditions</span>
+                            <Check className='bg-[#DBE4F5] rounded-full p-1'></Check> <span>Explore Comprehensive Urology Conditions</span>
                         </li>
                         <li className="flex items-center gap-2">
-                            ✅ <span>Learn About Treatments & Next Steps</span>
+                            <Check className='bg-[#DBE4F5] rounded-full p-1'></Check> <span>Learn About Treatments & Next Steps</span>
                         </li>
                         <li className="flex items-center gap-2">
-                            ✅ <span>Find Expert Insights from Dr. Erol</span>
+                            <Check className='bg-[#DBE4F5] rounded-full p-1'></Check> <span>Find Expert Insights from Dr. Erol</span>
                         </li>
                     </ul>
 
@@ -43,15 +44,14 @@ function SymptomsHome() {
                     />
 
                     {/* Overlay Box */}
-                    <div className="h-40 w-60 absolute top-1/2 -translate-y-1/2 bg-white rounded-2xl px-4 py-2 flex justify-center items-center gap-2 md:-ml-16">
+                    <div className="absolute top-1/2 -translate-y-1/2 bg-white rounded-2xl px-4 py-2 flex justify-center items-center gap-2 md:-ml-16">
                         {/* Icon Group */}
-                        <div className='flex flex-col'>
+                        <div className='flex flex-col items-center gap-3 py-3'>
                             <div className="flex gap-1">
-                                <span className="bg-yellow-100 p-1 rounded-full">🎧</span>
-                                <span className="bg-green-100 p-1 rounded-full">🕐</span>
-                                <span className="bg-blue-100 p-1 rounded-full">👤</span>
+                                <span className="bg-[#FEF1CB] p-1 rounded-full"><Image src="/87c8253d68e0677a7af6cbf8fa53cfba98233050.png" alt='no_delay' height={24} width={24}></Image></span>
+                                <span className="bg-[#E6F2D5] p-1 rounded-full"><Image src="/87c8253d68e0677abhf6cbf8fa53cfba98233050.png" alt='fast' height={24} width={24}></Image></span>
                             </div>
-                            <div className="text-sm font-medium mt-8">Dedicated 24/7<br />Patient Concierge</div>
+                            <div className="text-sm font-semibold text-gray-500">Dedicated 24/7<br />Patient Concierge</div>
                         </div>
                     </div>
                 </div>
