@@ -9,7 +9,6 @@ import ProcessHome from '../components/process_home/ProcessHome';
 import DoctorIntroHome from '../components/doctor_intro_home/DoctorIntroHome';
 import TestimonialSlider from '../components/testimonial/TestimonialSlider';
 import YourTerms from '../components/urology_on_your_terms/YourTerms';
-import MultipleCards from '../components/strip_of_multiple-cards/MultipleCards';
 import { FaStar } from 'react-icons/fa';
 import EnlargedProstateHome from '../components/enlarged_prostate/EnlargedProstateHome';
 import PatientStoriesHome from '../components/patient_stories/PatientStoriesHome';

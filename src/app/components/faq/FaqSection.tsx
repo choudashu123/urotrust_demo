@@ -1,7 +1,6 @@
 'use client'
 import { ArrowDown, ArrowUp } from 'lucide-react';
 import React, { useState } from 'react';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 const faqs = [
   {
